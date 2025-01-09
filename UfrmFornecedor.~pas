@@ -1,0 +1,24 @@
+unit UfrmFornecedor;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TfrmForncedor = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmForncedor: TfrmForncedor;
+
+implementation
+
+{$R *.dfm}
+
+end.
